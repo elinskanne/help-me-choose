@@ -20,6 +20,17 @@
     <p><iframe src="https://giphy.com/embed/6QUezJbsYaVsA" width="480" height="336" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p>Old school homepage style</p>
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script></script>
+    <script>
+      $(function()  {
+        $('.resultSection').hide()
+
+        var add_option = function() {
+          $('.inputs').append('<input></input>')
+        }
+
+        $('.addOption').click(add_option)
+
+    })
+    </script>
   </body>
 </html>
