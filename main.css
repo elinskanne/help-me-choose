@@ -30,7 +30,7 @@ h1 {
   width: 400px;
 }
 
-.inputs {
+.classinputs {
   width: inherit;
   display: flex;
   flex-direction: column;
